@@ -1,0 +1,20 @@
+{
+  "name": "2fa-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "node-json-db": "^2.3.0",
+    "otpauth": "^9.3.1",
+    "qrcode": "^1.5.3"
+  }
+}
